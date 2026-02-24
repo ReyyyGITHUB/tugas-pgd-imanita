@@ -1,0 +1,158 @@
+body {
+    padding-left: 120px;
+    padding-right: 120px;
+    background: white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.profile {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: space-between ;
+}
+
+#tentang {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+
+}
+.informasi {
+    border: solid 1px;
+    padding: 32px;
+    border-radius: 12px;
+}
+.keinginan {
+    border: solid 1px;
+    padding: 32px;
+    border-radius: 12px;
+}
+.keinginan p {
+    font-size: 20px;
+    
+}
+.keinginan h2 {
+    font-size: 32px;
+}
+
+body {
+    padding-left: 120px;
+    padding-right: 120px;
+    background: white;
+}
+
+.profile {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: space-between ;
+}
+
+#tentang {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+
+}
+.informasi {
+    border: solid 1px;
+    padding: 32px;
+    border-radius: 12px;
+}
+.keinginan {
+    border: solid 1px;
+    padding: 32px;
+    border-radius: 12px;
+}
+.keinginan p {
+    font-size: 20px;
+    
+}
+.keinginan h2 {
+    font-size: 32px;
+}
+
+#container-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: start;
+    justify-content: center;
+    border: solid 1px;
+    height: fit-content;
+    margin-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 12px;
+}
+
+.skills {
+    padding: 12px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.hobi {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.makanan {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.minuman {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.riwayat {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.btn-primary {
+    padding: 16px;
+    border-radius: 16px;
+    border: solid 0px;
+    background: #3328ff;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    padding: 16px;
+    border-radius: 16px;
+    border: solid 0px;
+    background: #766fff;
+    motion-rotation: reverse;
+    cursor: pointer;
+}
+.btn-primary a{
+    color: white;
+
+}
+.container-button {
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,75 @@
+body {
+    padding-left: 120px;
+    padding-right: 120px;
+    background: white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: 'Segoe UI', Arial, sans-serif; /* Menambahkan font agar senada dengan halaman biodata */
+}
+
+/* Styling untuk tombol "Kembali ke Biodata" */
+a {
+    padding: 16px 24px;
+    border-radius: 16px;
+    background: #3328ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 32px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #766fff;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: #000;
+}
+
+/* Styling utama untuk tabel */
+table {
+    width: 100%; /* Diaktifkan menjadi 100% agar tabel menyesuaikan ruang kontainernya */
+    border-collapse: collapse;
+    border: solid 1px #000;
+    margin-bottom: 32px;
+    border-radius: 12px; /* Opsional: Membuat sudut luar tabel sedikit membulat jika diinginkan */
+}
+
+table th, table td {
+    border: solid 1px #000;
+    padding: 16px; 
+    text-align: center; 
+    font-size: 20px; 
+}
+
+table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* Styling untuk elemen mark (highlight nama di tabel piket) */
+mark {
+    background-color: #3328ff; 
+    color: white;
+    padding: 8px 16px;
+    display: inline-block; /* Memastikan padding tidak merusak tinggi baris tabel */
+}
+
+/* Penyempurnaan container horizontal (misal untuk menjejerkan 2 tabel kiri-kanan) */
+.container-horizon {
+    display: flex;
+    flex-direction: row;
+    gap: 32px; /* Memberikan jarak antar elemen agar tidak menempel */
+    align-items: flex-start; /* Elemen tetap rata atas meskipun tingginya berbeda */
+    width: 100%; 
+}
+
+/* Memastikan elemen di dalam container-horizon berbagi lebar yang sama rata */
+.container-horizon > div {
+    flex: 1;
+}
