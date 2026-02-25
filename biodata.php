@@ -17,7 +17,7 @@ $kewarganegaraan = "WNI";
 $no_wa = "085799799857";
 $email = "rayhanyogiswara133@gmail.com";
 $motto_hidup = "ikan hiu makan tomat, semangat";
-$foto = "rehan.png";
+$foto = "rehan.jpeg";
 
 $tahun_sekarang = date('Y');
 $umur = $tahun_sekarang - $tahun_lahir;
@@ -80,7 +80,7 @@ $minuman2 = 'jus jeruk';
                 aku adalah seorang Software Engineer. Aku ingin bekerja di perusahaan gede,
                 usaha yang akan saya lakukan adalah belajar progarmming sedini mungkin.
             </p>
-            <img src="<?php echo $foto; ?>" alt="Foto Profil" width="150">
+            <img class="profile-pict" src="<?php echo $foto; ?>" alt="Foto Profil">
         </div>
     </section>
 
